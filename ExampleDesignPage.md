@@ -28,15 +28,15 @@
 13. Reliability and fault tolerance
 14. Testability
 
-1. Objective
+## 1. Objective
 Allow MM to define different invoice templates depending on the customer groups (or segments)
 
 
-2. References
+## 2. References
 <Ticket #> - New functionality for Product
 
 
-3. Terminologies
+## 3. Terminologies
 Read-only template: OOTB template provided by the product which is by default active once feature is enabled. This templates cannot be edited.
 
 Default template: Any active template without any segments associated with it. Can be read only or customised. Used as a fallback template for any given locale when customised template for that locale or for a segment is not defined
@@ -46,7 +46,7 @@ Segmented template: Template (active / inactive) having segments associated with
 Published template: Template which is active for a given locale (and/or segments) PDFs are available in this template format once the invoices are generated
 
 
-4. Functional requirements overview
+## 4. Functional requirements overview
 Assigning segments to a template is possible only if segments are enabled for a MP. 
 
 
